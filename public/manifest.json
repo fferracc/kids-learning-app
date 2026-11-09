@@ -1,0 +1,22 @@
+{
+    "name": "Little Learners",
+    "short_name": "Learners",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#AEC6CF",
+    "theme_color": "#AEC6CF",
+    "description": "Fun learning for kids!",
+    "orientation": "landscape",
+    "icons": [
+        {
+            "src": "vite.svg",
+            "sizes": "192x192",
+            "type": "image/svg+xml"
+        },
+        {
+            "src": "vite.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply select-none overflow-hidden touch-none overscroll-none bg-pastel-blue text-slate-800;
+    font-family: 'Varela Round', sans-serif;
+  }
+}
+
+/* Custom Juice & Utilities */
+.juicy-active:active {
+  transform: scale(0.95);
+  transition: transform 0.1s;
+}
+
+.stage-gradient {
+  background: radial-gradient(circle at center, #ffffff 0%, #f0f9ff 100%);
+}
